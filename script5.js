@@ -1,3 +1,6 @@
-let horas = 4; minutos = 35;
-let minutosTotales = (horas * 105) + minutos;
-console.log(minutosTotales);
+let largo= Number(prompt("Ingrese largo"));
+let alto = Number(prompt("Ingrese el alto"));
+let perimetro = 2*(largo + alto);
+let area = largo * alto;
+console.log("perimetro: "+ perimetro);
+console.log("área: " + area);

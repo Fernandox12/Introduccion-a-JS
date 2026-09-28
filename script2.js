@@ -1,2 +1,4 @@
-let a = 6, b = 7;
-console.log (a+b);
+let a =  Number(prompt("Ingrese un número"));
+let b = Number(prompt("Ingrese otro número"));
+let suma = a + b;
+console.log(suma);

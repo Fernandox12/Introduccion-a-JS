@@ -1,2 +1,2 @@
-let nombre = "Fernando", edad = 17, estatura = 1.74;
-console.log('${nombre} tiene ${edad} años y mide ${estatura}');
+let nombre = prompt("Escribe tu nombre");
+console.log("¡Hola, " + nombre + "!");
